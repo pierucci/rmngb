@@ -1,10 +1,11 @@
 Package: rmngb
 Version: 0.6-1
 Date: 2014-10-13
-Title: rmngb Miscellaneous
+Title: Miscellaneous Collection of Functions for Medical Data Analysis
 Author: Antoine Filipovic Pierucci
 Maintainer: Antoine Filipovic Pierucci <pierucci@gmail.com>
-Description: A collection of miscellaneous functions. Exploratory data analysis, multidimensional visualization, medico-economic simulation, multiple testing...
+Description: A collection of miscellaneous functions for medical data analysis. Visualization
+ of multidimensional data, diagnostic test calibration, pairwise tests for qualitative variables and outcome simulation.
 License: GPL (>= 3)
 Imports: Hmisc
 Packaged: 2014-06-07 22:32:53 UTC; antoine
