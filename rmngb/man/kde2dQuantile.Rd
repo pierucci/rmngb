@@ -34,7 +34,7 @@ Useful for contour plots of 2-dimensional KDE quantiles.
 A vector of quantiles corresponding to the given probabilities.
 }
 \author{
-Antoine Filipovic Pierucc
+Antoine Filipovic Pierucci
 }
 \seealso{
 \code{\link[MASS]{kde2d}}, \code{\link{contour}}.
