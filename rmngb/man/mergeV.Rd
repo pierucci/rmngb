@@ -35,9 +35,9 @@ This function is just a wrapper for \code{\link{merge}}, the behavior and the re
 
 Calculation of the printed information is not computationaly free; \code{mergeV} takes significantly longer than the non verbose version to compute. Cross joins have almost no overhead, and inner joins have less overhead than the other types of junctions.
 
-When \code{verbose} is FALSE the computational overhead is removed.
+When \code{verbose} is \code{FALSE} the computational overhead is removed.
 
-The printed information is composed of 3 parts. The first part represents the number of lines from each entry tables X and Y who have matches, and the number of resulting lines in the output R. The second part gives the type of join (inner, outer, left, right and cross). The last part is only there if there is a \code{by} variable, and gives the number of nXn matches on the by variables.
+The printed information is composed of 3 parts. The first part represents the number of lines from each entry tables X and Y with a match, and the number of resulting lines in the output R. The second part gives the type of join (inner, outer, left, right and cross). The last part is only present if there is a \code{by} variable, and gives the number of nXn matches on the by variables.
 }
 \value{
 Same value as \code{merge}.
