@@ -9,5 +9,6 @@ rDist <- function(x, ...) {
               class = "rDist")
 }
 plot.rDist <- function(x, ...) {
-    eval(expression(plot(d, ...)), envir = environment(x))
+  denObj <- eval(expression(d), envir = environment(x))
+  plot(denObj, ...)
 }
