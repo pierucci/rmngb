@@ -1,6 +1,6 @@
 Package: rmngb
-Version: 0.6-1
-Date: 2014-10-13
+Version: 0.6-2
+Date: 2015-11-12
 Title: Miscellaneous Collection of Functions for Medical Data Analysis
 Author: Antoine Filipovic Pierucci
 Maintainer: Antoine Filipovic Pierucci <pierucci@gmail.com>
