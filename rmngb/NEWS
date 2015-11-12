@@ -1,3 +1,8 @@
+Version 0.6-2 (2015-11-12)
+-------------------------------------------------------------------
+Fixes
+ * fixed rDist to work with missing data.
+ * fixed plot.rDist to accept plot title.
 Version 0.6-1 (2014-10-13)
 -------------------------------------------------------------------
 Fixes
