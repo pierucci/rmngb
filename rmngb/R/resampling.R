@@ -1,5 +1,6 @@
 rDist <- function(x, ...) {
-    d <- density(na.omit(x), ...)
+    x <- na.omit(x)
+    d <- density(x, ...)
     
     structure(function(n)
         rnorm(n = n,
